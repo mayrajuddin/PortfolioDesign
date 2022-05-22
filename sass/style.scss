@@ -1,0 +1,105 @@
+/* 
+Tamplate Name : portfolio 
+Author Name : unknown
+Author gmail :
+Tamplate Designer : unknown
+Version : 1.0.0
+===========================
+Table of Content
+---------------------------
+* Common CSS
+=============
+
+1.Index page CSS
+==================
+1.1 banner  section
+1.2
+1.3
+1.4
+1.5
+1.6
+*/
+@import 'common';
+@import 'color';
+@import 'mixins';
+#banner{
+    height: 600px;
+    background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
+    background-position: right;
+    background-size: 50%;
+    // .container,.row{
+    //     height: 100%;
+    //     overflow: hidden;
+    // }
+    nav{
+        .logo{
+            font-size: 24px;
+            color: $light-color;
+        }
+        ul{
+            li{
+                a{
+                    padding: 8px 12px;
+                    color: $light-color;
+                    text-transform: uppercase;
+                    transition: all .3s linear;
+                    &:hover{
+                        color: $purple-color;
+                    }
+                }
+                
+            }
+        }
+        .contact_btn{
+            a{
+                text-transform: capitalize !important;
+                @include link_btn;
+                transition: all .3s linear;
+                &:hover{
+                    background-color: $purple-color;
+                }
+            }
+        }
+    }
+    .bContent{
+        align-items: center;
+        p{
+            padding: 12px 0;
+            font-size: 20px;
+            color: rgba(255, 255, 255, .5);
+            text-transform: capitalize;
+            span{
+                color: $light-color;
+            }
+        }
+        .ecvbtn a{
+            @include link_btn;
+            transition: all .3s linear;
+            margin-right: 10px;
+            span{
+                text-transform: uppercase;
+            }
+            i{
+                margin-right: 2px;
+            }
+            &:hover{
+                background-color: $purple-color;
+            }
+        }
+    }
+    .bContent h2{
+        font-size: 96px;
+        color: $light-color;
+    }
+}
+#banner-bm{
+    height: 300px;
+    background-color: aquamarine;
+}
+/* section start */
+
+/* section end */
+
+/* footer section start */
+/* footer{} */
+/* footer section end */

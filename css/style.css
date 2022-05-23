@@ -195,7 +195,77 @@ form input:focus {
   padding: 12px;
 }
 
+#client {
+  padding: 80px 0;
+  background-color: #222A36F2;
+  color: #fff;
+  opacity: .95;
+}
+
+#client .client_slider {
+  position: relative;
+}
+
+#client .client_slider .client_item .item_content p {
+  font-size: 18px;
+}
+
+#client .client_slider .slider_btn {
+  position: absolute;
+  left: 44%;
+  top: 78%;
+}
+
+#client .client_slider .slider_btn a {
+  color: #676CDB;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#client .service .service_item {
+  text-transform: capitalize;
+}
+
+#client .service .service_item h4 {
+  font-size: 42px;
+}
+
+#client .service .service_item h3 {
+  color: #676CDB;
+  font-size: 42px;
+  padding: 12px 0;
+}
+
+#contact {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 0;
+}
+
+#contact .content-left h2 {
+  font-size: 82px;
+  text-transform: capitalize;
+}
+
+#contact .content-left .social_link li a {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+  color: #fff;
+}
+
 /* footer section start */
-/* footer{} */
+footer {
+  padding: 12px 0;
+  background-color: #000;
+}
+
+footer p {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* footer section end */
 /*# sourceMappingURL=style.css.map */

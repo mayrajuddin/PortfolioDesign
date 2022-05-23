@@ -58,10 +58,9 @@ form input:focus {
 
 /* Common css end */
 #banner {
-  height: 600px;
+  height: 700px;
   background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
   background-position: right;
-  background-size: 50%;
 }
 
 #banner nav .logo {

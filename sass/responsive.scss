@@ -1,0 +1,343 @@
+// extra device start *xl*
+@media(min-width:1200px) and (max-width:1399.98px){
+    
+}
+// large device end *lg*
+@media (min-width:992px) and (max-width:1199.98px){
+    // banner section start
+    #banner {
+        height: 640px;
+        background-size: 50% 100%;
+        .bContent {
+            h2 {
+                font-size: 80px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+    // banner section end
+    // icons section start
+    #icons{
+        .icons_item{
+            i{
+                font-size: 60px;
+            }
+        }
+    }
+    // experience section start  
+    #exp{
+        padding: 70px 0;
+        .left_content{
+            h3{
+                font-size: 52px;
+                span{
+                    font-size: 84px;
+                }
+            }
+        }
+        .right_content{
+            .exp_tle{
+                h3{
+                    font-size: 26px;
+                }
+            }
+            .exp_catagory{
+                .text{
+                    i{
+                        padding-top: 110px;
+                    }
+                    h4{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // experience section end
+    // client section start
+    #client{
+        padding: 70px 0;
+        // .client_catagory{}
+        .service{
+            .service_item{
+                h4{
+                    font-size: 36px;
+                }
+                h3{
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+    // client section end
+    // contact section start
+    #contact {
+        padding: 70px 0;
+    }
+    // contact section end
+}
+// large device end
+// medium device start *md*
+@media (min-width:768px) and (max-width:991.98px){
+     // banner section start
+     #banner {
+        height: 510px;
+        background-size: 50% 100%;
+        .bContent {
+            h2 {
+                font-size: 58px;
+            }
+            p {
+                font-size: 15px;
+            }
+            .ecvbtn{
+                a{
+                    padding: 10px 18px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    // banner section end
+    // icons section start
+    #icons{
+        .icons_item{
+            i{
+                font-size: 58px;
+            }
+        }
+    }
+    // icons section end
+    // experience section start  
+    #exp{
+        padding: 60px 0;
+        .left_content{
+            h3{
+                font-size: 38px;
+                span{
+                    font-size: 68px;
+                }
+            }
+        }
+        .right_content{
+            .exp_tle{
+                h3{
+                    font-size: 26px;
+                }
+            }
+            .exp_catagory{
+                .text{
+                    i{
+                        padding-top: 80px;
+                        font-size: 14px;
+                    }
+                    h4{
+                        font-size: 14px;
+                        width: 62%;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+    // experience section end
+    // client section start
+    #client{
+        padding: 60px 0;
+        .client_catagory{
+            .client_slider{
+                .client_item{
+                    .item_content{
+                        p{
+                        font-size: 14px;
+                        line-height: 25px;
+                        padding-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .slider_btn{
+                top: 82%;
+            }
+        }
+        .service{
+            .service_item{
+                h4{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 28px;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    // client section end
+    // contact section start
+    #contact {
+        padding: 60px 0;
+        .content-left{
+            h2{
+                font-size: 62px;
+            }
+        }
+    }
+    // contact section end
+}
+// md device end
+// device start *sm*
+@media (min-width:576px) and (max-width:767.98px){
+    // mbl nav section start
+    .mbl_menu{
+        nav{
+            button{
+                color: #fff;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+            #mbl_nav{
+                margin-top: 12px;
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    a{
+                        color: #1d2024 !important;
+                        background-color: rgba(215, 215, 215 , .75);
+                        display: inline-block;
+                        min-width: 180px;
+                        border-bottom: 1px solid transparent;
+                        &:hover{
+                            border-bottom: 1px solid #ddd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // mbl nav section end
+    // banner section start
+    #banner {
+        height: 420px;
+        background-size: cover;
+        .bContent {
+            h2 {
+                font-size: 34px;
+            }
+            p {
+                font-size: 12px;
+            }
+            .ecvbtn{
+                a{
+                    padding: 8px 16px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    // banner section end
+    // icons section start
+    #icons{
+        padding: 24px 0;
+        .icons_item{
+            i{
+                font-size: 28px;
+            }
+        }
+    }
+    // icons section end
+    // experience section start  
+    #exp{
+        padding: 36px 0;
+        .left_content{
+            h3{
+                font-size: 32px;
+                text-align: center;
+                span{
+                    font-size: 58px;
+                }
+            }
+        }
+        .right_content{
+            .exp_tle{
+                h3{
+                    font-size: 26px;
+                }
+            }
+            .exp_catagory{
+                .cat_item{
+                    margin-top: 30px;
+                }
+                .text{
+                    i{
+                        padding-top: 80px;
+                        font-size: 14px;
+                    }
+                    h4{
+                        font-size: 14px;
+                        width: 62%;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+    // experience section end
+    // client section start
+    #client{
+        padding: 36px 0;
+        .client_catagory{
+            .client_slider{
+                .client_item{
+                    .item_content{
+                        p{
+                            font-size: 12px;
+                            line-height: 22px;
+                            padding-bottom: 24px;
+                        }
+                    }
+                }
+            }
+            .slider_btn{
+                top: 82%;
+                left: 52%;
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+        .service{
+            margin-top: 30px;
+            .service_item{
+                text-align: center;
+                h4{
+                    font-size: 14px;
+                }
+                h3{
+                    font-size: 22px;
+                    padding: 6px 0;
+                }
+            }
+        }
+    }
+    // client section end
+    // contact section start
+    #contact {
+        padding: 36px 0;
+        .content-left{
+            h2{
+                font-size: 38px;
+            }
+        }
+        form{
+            padding-top: 30px;
+        }
+    }
+    // contact section end
+}
+// small device end
+@media(max-width:575.98px){}
+// extra small end

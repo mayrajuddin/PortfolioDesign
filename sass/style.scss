@@ -22,14 +22,13 @@ Table of Content
 @import 'common';
 @import 'color';
 @import 'mixins';
-#banner{
-    height: 700px;
-    background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
-    background-position: right;
-    // .container,.row{
-    //     height: 100%;
-    //     overflow: hidden;
-    // }
+// nav section start
+#menu{
+    position: fixed;
+    left: 0;
+    top: 5px;
+    width: 100%;
+    z-index: 999;
     nav{
         .logo{
             font-size: 24px;
@@ -60,6 +59,12 @@ Table of Content
             }
         }
     }
+}
+// nav section end
+#banner{
+    height: 700px;
+    background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
+    background-position: right;
     .bContent{
         align-items: center;
         p{

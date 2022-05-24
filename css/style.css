@@ -57,18 +57,20 @@ ul, ol {
 }
 
 /* Common css end */
-#banner {
-  height: 700px;
-  background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
-  background-position: right;
+#menu {
+  position: fixed;
+  left: 0;
+  top: 5px;
+  width: 100%;
+  z-index: 999;
 }
 
-#banner nav .logo {
+#menu nav .logo {
   font-size: 24px;
   color: #fff;
 }
 
-#banner nav ul li a {
+#menu nav ul li a {
   padding: 8px 12px;
   color: #fff;
   text-transform: uppercase;
@@ -76,11 +78,11 @@ ul, ol {
   transition: all .3s linear;
 }
 
-#banner nav ul li a:hover {
+#menu nav ul li a:hover {
   color: #676CDB;
 }
 
-#banner nav .contact_btn a {
+#menu nav .contact_btn a {
   text-transform: capitalize !important;
   padding: 10px 24px;
   font-size: 20px;
@@ -90,8 +92,14 @@ ul, ol {
   transition: all .3s linear;
 }
 
-#banner nav .contact_btn a:hover {
+#menu nav .contact_btn a:hover {
   background-color: #676CDB;
+}
+
+#banner {
+  height: 700px;
+  background: #222A36F2 url(../images/bannerimg.jpg) no-repeat;
+  background-position: right;
 }
 
 #banner .bContent {

@@ -1,0 +1,219 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #banner {
+    height: 640px;
+    background-size: 50% 100%;
+  }
+  #banner .bContent h2 {
+    font-size: 80px;
+  }
+  #banner .bContent p {
+    font-size: 18px;
+  }
+  #icons .icons_item i {
+    font-size: 60px;
+  }
+  #exp {
+    padding: 70px 0;
+  }
+  #exp .left_content h3 {
+    font-size: 52px;
+  }
+  #exp .left_content h3 span {
+    font-size: 84px;
+  }
+  #exp .right_content .exp_tle h3 {
+    font-size: 26px;
+  }
+  #exp .right_content .exp_catagory .text i {
+    padding-top: 110px;
+  }
+  #exp .right_content .exp_catagory .text h4 {
+    font-size: 20px;
+  }
+  #client {
+    padding: 70px 0;
+  }
+  #client .service .service_item h4 {
+    font-size: 36px;
+  }
+  #client .service .service_item h3 {
+    font-size: 38px;
+  }
+  #contact {
+    padding: 70px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #banner {
+    height: 510px;
+    background-size: 50% 100%;
+  }
+  #banner .bContent h2 {
+    font-size: 58px;
+  }
+  #banner .bContent p {
+    font-size: 15px;
+  }
+  #banner .bContent .ecvbtn a {
+    padding: 10px 18px;
+    font-size: 18px;
+  }
+  #icons .icons_item i {
+    font-size: 58px;
+  }
+  #exp {
+    padding: 60px 0;
+  }
+  #exp .left_content h3 {
+    font-size: 38px;
+  }
+  #exp .left_content h3 span {
+    font-size: 68px;
+  }
+  #exp .right_content .exp_tle h3 {
+    font-size: 26px;
+  }
+  #exp .right_content .exp_catagory .text i {
+    padding-top: 80px;
+    font-size: 14px;
+  }
+  #exp .right_content .exp_catagory .text h4 {
+    font-size: 14px;
+    width: 62%;
+    padding: 8px;
+  }
+  #client {
+    padding: 60px 0;
+  }
+  #client .client_catagory .client_slider .client_item .item_content p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 20px;
+  }
+  #client .client_catagory .slider_btn {
+    top: 82%;
+  }
+  #client .service .service_item h4 {
+    font-size: 20px;
+  }
+  #client .service .service_item h3 {
+    font-size: 28px;
+    padding: 10px 0;
+  }
+  #contact {
+    padding: 60px 0;
+  }
+  #contact .content-left h2 {
+    font-size: 62px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mbl_menu nav button {
+    color: #fff;
+  }
+  .mbl_menu nav button:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .mbl_menu nav #mbl_nav {
+    margin-top: 12px;
+  }
+  .mbl_menu nav ul li {
+    display: inline-block;
+  }
+  .mbl_menu nav ul li a {
+    color: #1d2024 !important;
+    background-color: rgba(215, 215, 215, 0.75);
+    display: inline-block;
+    min-width: 180px;
+    border-bottom: 1px solid transparent;
+  }
+  .mbl_menu nav ul li a:hover {
+    border-bottom: 1px solid #ddd;
+  }
+  #banner {
+    height: 420px;
+    background-size: cover;
+  }
+  #banner .bContent h2 {
+    font-size: 34px;
+  }
+  #banner .bContent p {
+    font-size: 12px;
+  }
+  #banner .bContent .ecvbtn a {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  #icons {
+    padding: 24px 0;
+  }
+  #icons .icons_item i {
+    font-size: 28px;
+  }
+  #exp {
+    padding: 36px 0;
+  }
+  #exp .left_content h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+  #exp .left_content h3 span {
+    font-size: 58px;
+  }
+  #exp .right_content .exp_tle h3 {
+    font-size: 26px;
+  }
+  #exp .right_content .exp_catagory .cat_item {
+    margin-top: 30px;
+  }
+  #exp .right_content .exp_catagory .text i {
+    padding-top: 80px;
+    font-size: 14px;
+  }
+  #exp .right_content .exp_catagory .text h4 {
+    font-size: 14px;
+    width: 62%;
+    padding: 8px;
+  }
+  #client {
+    padding: 36px 0;
+  }
+  #client .client_catagory .client_slider .client_item .item_content p {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 24px;
+  }
+  #client .client_catagory .slider_btn {
+    top: 82%;
+    left: 52%;
+  }
+  #client .client_catagory .slider_btn a {
+    font-size: 14px;
+  }
+  #client .service {
+    margin-top: 30px;
+  }
+  #client .service .service_item {
+    text-align: center;
+  }
+  #client .service .service_item h4 {
+    font-size: 14px;
+  }
+  #client .service .service_item h3 {
+    font-size: 22px;
+    padding: 6px 0;
+  }
+  #contact {
+    padding: 36px 0;
+  }
+  #contact .content-left h2 {
+    font-size: 38px;
+  }
+  #contact form {
+    padding-top: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

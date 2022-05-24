@@ -159,15 +159,8 @@ Table of Content
     background-color: $dark-color;
     color: $light-color;
     opacity: .95;
-    .client_slider{
+    .client_catagory{
         position: relative;
-        .client_item{
-            .item_content{
-                p{
-                    font-size: 18px;
-                }
-            }
-        }
         .slider_btn{
             position: absolute;
             left: 44%;
@@ -178,6 +171,17 @@ Table of Content
                 margin-right: 10px;
             }
         }
+    }
+    .client_slider{
+        position: relative;
+        .client_item{
+            .item_content{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+        
     }
     .service{
         .service_item{
@@ -192,6 +196,7 @@ Table of Content
             }
         }
     }
+   
 }
 // client section end
 // contact section start
@@ -212,7 +217,56 @@ Table of Content
                     line-height: 44px;
                     font-size: 18px;
                     color: $light-color;
+                    transition: all .3s linear;
                 }
+                &:hover a{
+                    color: $purple-color;
+                }
+            }
+        }
+    }
+    .contact_form{
+        form{
+            label{
+                text-transform: capitalize;
+            }
+            input,textarea{
+                font-size: 18px;
+                text-transform: lowercase;
+                background: none;
+                border: 1px solid $dark-opacity;
+                color: $light-color;
+            }
+            a{
+                font-size: 18px;
+                color: $purple-color;
+                text-transform: capitalize;
+                i{
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .top_btn{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 9;
+        span{
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            font-size: 18px;
+            color: $purple-color;
+            background-color: $dark-color;
+            display: block;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all .3s linear;
+            &:hover{
+                background-color: $dark-opacity;
+                color: $light-color;
             }
         }
     }
@@ -226,6 +280,9 @@ footer{
         font-size: 18px;
         text-transform: capitalize;
         color: $dark-opacity;
+        span{
+            color: $light-color;
+        }
     }
 }
 /* footer section end */

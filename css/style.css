@@ -51,7 +51,7 @@ ul, ol {
   list-style: none;
 }
 
-form input:focus {
+.form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -202,24 +202,28 @@ form input:focus {
   opacity: .95;
 }
 
+#client .client_catagory {
+  position: relative;
+}
+
+#client .client_catagory .slider_btn {
+  position: absolute;
+  left: 44%;
+  top: 78%;
+}
+
+#client .client_catagory .slider_btn a {
+  color: #676CDB;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
 #client .client_slider {
   position: relative;
 }
 
 #client .client_slider .client_item .item_content p {
   font-size: 18px;
-}
-
-#client .client_slider .slider_btn {
-  position: absolute;
-  left: 44%;
-  top: 78%;
-}
-
-#client .client_slider .slider_btn a {
-  color: #676CDB;
-  font-size: 24px;
-  margin-right: 10px;
 }
 
 #client .service .service_item {
@@ -253,6 +257,61 @@ form input:focus {
   line-height: 44px;
   font-size: 18px;
   color: #fff;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+#contact .content-left .social_link li:hover a {
+  color: #676CDB;
+}
+
+#contact .contact_form form label {
+  text-transform: capitalize;
+}
+
+#contact .contact_form form input, #contact .contact_form form textarea {
+  font-size: 18px;
+  text-transform: lowercase;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+#contact .contact_form form a {
+  font-size: 18px;
+  color: #676CDB;
+  text-transform: capitalize;
+}
+
+#contact .contact_form form a i {
+  padding-left: 10px;
+}
+
+#contact .top_btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9;
+}
+
+#contact .top_btn span {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  color: #676CDB;
+  background-color: #222A36F2;
+  display: block;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+#contact .top_btn span:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 
 /* footer section start */
@@ -265,6 +324,10 @@ footer p {
   font-size: 18px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.5);
+}
+
+footer p span {
+  color: #fff;
 }
 
 /* footer section end */

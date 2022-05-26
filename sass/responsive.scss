@@ -1,3 +1,6 @@
+@import 'common';
+@import 'color';
+@import 'mixins';
 // extra device start *xl*
 @media(min-width:1200px) and (max-width:1399.98px){
     
@@ -340,5 +343,209 @@
     // back to top btn
 }
 // small device end
-@media(max-width:575.98px){}
+@media(max-width:575.98px){
+        // mbl nav section start
+        .mbl_menu{
+            nav{
+                button{
+                    color: #fff;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+                #mbl_nav{
+                    margin-top: 12px;
+                }
+                ul{
+                    li{
+                        display: inline-block;
+                        a{
+                            color: #1d2024 !important;
+                            background-color: rgba(215, 215, 215 , .75);
+                            display: inline-block;
+                            min-width: 180px;
+                            border-bottom: 1px solid transparent;
+                            &:hover{
+                                border-bottom: 1px solid #ddd;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // mbl nav section end
+    // banner section start
+    #banner {
+        height: 380px;
+        background-size: cover;
+        .bContent {
+            h2 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 12px;
+            }
+            .ecvbtn{
+                a{
+                    padding: 8px 16px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    // banner section end
+    // icons section start
+    #icons{
+        padding: 14px 0;
+        .icons_item{
+            width: calc(100% / 6);
+            i{
+                font-size: 18px;
+            }
+        }
+    }
+    // icons section end
+    // experience section start  
+    #exp{
+        padding: 30px 0;
+        .left_content{
+            h3{
+                font-size: 24px;
+                text-align: center;
+                span{
+                    font-size: 32px;
+                }
+            }
+        }
+        .right_content{
+            .exp_tle{
+                h3{
+                    font-size: 18px;
+                    padding: 22px 10px;
+                }
+            }
+            .exp_catagory{
+                
+                .cat_item{
+                    margin-top: 24px;
+                    width: 70%;
+                }
+                .text{
+                    i{
+                        padding-top: 80px;
+                        font-size: 14px;
+                    }
+                    h4{
+                        font-size: 14px;
+                        width: 62%;
+                        padding: 8px;
+                    }
+                }
+            }.row{
+                justify-content: center;
+            }
+        }
+    }
+    // experience section end
+    // client section start
+    #client{
+        padding: 30px 0;
+        .client_catagory{
+            .client_slider{
+                .client_item{
+                    .item_img{
+                        width: 50%;
+                    }
+                    .item_content{
+                        width: 50%;
+                        p{
+                            font-size: 9px;
+                            line-height: 16px;
+                            padding-bottom: 24px;
+                        }
+                    }
+                }
+            }
+            .slider_btn{
+                top: 82%;
+                left: 52%;
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+        .service{
+            margin-top: 26px;
+            .service_item{
+                text-align: center;
+                h4{
+                    font-size: 14px;
+                }
+                h3{
+                    font-size: 22px;
+                    padding: 6px 0;
+                }
+            }
+        }
+    }
+    // client section end
+    // contact section start
+    #contact {
+        padding: 30px 0;
+        .content-left{
+            text-align: center;
+            .social_link{
+                justify-content: center;
+            }
+            h2{
+                font-size: 24px;
+                br{
+                    display: none;
+                }
+            }
+        }
+        .contact_form{
+            form{
+                padding-top: 30px;
+                .form_item{
+                    width: 80%;
+                    input,textarea{
+                        font-size: 14px;
+                    }
+                }
+                .sent_btn{
+                    a{
+                        font-size: 14px;
+                        background-color: $purple-color;
+                        color: $light-color;
+                        padding: 8px 24px;
+                        i{
+                            padding-left: 8px;
+                        }
+                    }
+                }
+            }.row{
+                justify-content: center;
+            }
+        }
+        // top botton
+        .top_btn{
+            span{
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+    // contact section end
+    // footer section start
+    footer{
+        p{
+            font-size: 14px;
+            // span{}
+        }
+    }
+    // footer section end
+}
 // extra small end

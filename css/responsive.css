@@ -1,3 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Common css start */
+/* :root{} */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+span, small,
+ol, ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Common css end */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   #banner {
     height: 640px;
@@ -214,6 +252,170 @@
   }
   #contact form {
     padding-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mbl_menu nav button {
+    color: #fff;
+  }
+  .mbl_menu nav button:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .mbl_menu nav #mbl_nav {
+    margin-top: 12px;
+  }
+  .mbl_menu nav ul li {
+    display: inline-block;
+  }
+  .mbl_menu nav ul li a {
+    color: #1d2024 !important;
+    background-color: rgba(215, 215, 215, 0.75);
+    display: inline-block;
+    min-width: 180px;
+    border-bottom: 1px solid transparent;
+  }
+  .mbl_menu nav ul li a:hover {
+    border-bottom: 1px solid #ddd;
+  }
+  #banner {
+    height: 380px;
+    background-size: cover;
+  }
+  #banner .bContent h2 {
+    font-size: 24px;
+  }
+  #banner .bContent p {
+    font-size: 12px;
+  }
+  #banner .bContent .ecvbtn a {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  #icons {
+    padding: 14px 0;
+  }
+  #icons .icons_item {
+    width: calc(100% / 6);
+  }
+  #icons .icons_item i {
+    font-size: 18px;
+  }
+  #exp {
+    padding: 30px 0;
+  }
+  #exp .left_content h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  #exp .left_content h3 span {
+    font-size: 32px;
+  }
+  #exp .right_content .exp_tle h3 {
+    font-size: 18px;
+    padding: 22px 10px;
+  }
+  #exp .right_content .exp_catagory .cat_item {
+    margin-top: 24px;
+    width: 70%;
+  }
+  #exp .right_content .exp_catagory .text i {
+    padding-top: 80px;
+    font-size: 14px;
+  }
+  #exp .right_content .exp_catagory .text h4 {
+    font-size: 14px;
+    width: 62%;
+    padding: 8px;
+  }
+  #exp .right_content .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #client {
+    padding: 30px 0;
+  }
+  #client .client_catagory .client_slider .client_item .item_img {
+    width: 50%;
+  }
+  #client .client_catagory .client_slider .client_item .item_content {
+    width: 50%;
+  }
+  #client .client_catagory .client_slider .client_item .item_content p {
+    font-size: 9px;
+    line-height: 16px;
+    padding-bottom: 24px;
+  }
+  #client .client_catagory .slider_btn {
+    top: 82%;
+    left: 52%;
+  }
+  #client .client_catagory .slider_btn a {
+    font-size: 14px;
+  }
+  #client .service {
+    margin-top: 26px;
+  }
+  #client .service .service_item {
+    text-align: center;
+  }
+  #client .service .service_item h4 {
+    font-size: 14px;
+  }
+  #client .service .service_item h3 {
+    font-size: 22px;
+    padding: 6px 0;
+  }
+  #contact {
+    padding: 30px 0;
+  }
+  #contact .content-left {
+    text-align: center;
+  }
+  #contact .content-left .social_link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .content-left h2 {
+    font-size: 24px;
+  }
+  #contact .content-left h2 br {
+    display: none;
+  }
+  #contact .contact_form form {
+    padding-top: 30px;
+  }
+  #contact .contact_form form .form_item {
+    width: 80%;
+  }
+  #contact .contact_form form .form_item input, #contact .contact_form form .form_item textarea {
+    font-size: 14px;
+  }
+  #contact .contact_form form .sent_btn a {
+    font-size: 14px;
+    background-color: #676CDB;
+    color: #fff;
+    padding: 8px 24px;
+  }
+  #contact .contact_form form .sent_btn a i {
+    padding-left: 8px;
+  }
+  #contact .contact_form .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .top_btn span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
